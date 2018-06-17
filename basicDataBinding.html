@@ -1,0 +1,25 @@
+<<!DOCTYPE html>
+<html>
+<head>
+    <title>Say Hello!</title>
+</head>
+<body>
+    <div id="root">
+        <input type="text" id="input" v-model="message">
+
+    </div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+<script>
+    let data = {
+        message: 'Hello World!'
+    };
+    new Vue({
+        el: '#root',
+        data: data
+    })
+
+</script>
+</body>
+</html>
